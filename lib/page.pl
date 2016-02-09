@@ -158,7 +158,7 @@ swish_reply3(_, Options) :-
 swish_reply3(_, Options) :-
 	reply_html_page(
 	    swish(main),
-	    [ title('SWISH -- SWI-Prolog for SHaring'),
+	    [ title('VRE4EIC -- enhanced Virtual Research Environment'),
 	      link([ rel('shortcut icon'),
 		     href('/icons/favicon.ico')
 		   ]),

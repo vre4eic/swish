@@ -696,8 +696,9 @@ preferences.setInform("preserve-state", ".unloadable");
    */
   function swishLogo() {
     $(".swish-logo")
-      .append($.el.b($.el.span({style:"color:darkblue"}, "SWI"),
-		     $.el.span({style:"color:maroon"}, "SH")))
+      .append($.el.b($.el.span({style:"color:black"}, "VRE"),
+		     $.el.span({style:"color:#a92330"}, "4"),
+		     $.el.span({style:"color:black"}, "EIC")))
       .css("margin-left", "30px")
       .css("font-size", "24px")
       .addClass("navbar-brand");
