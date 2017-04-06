@@ -60,7 +60,8 @@ require.config({
     d3:          "../bower_components/d3/d3",
     "svg-pan-zoom": "../bower_components/svg-pan-zoom/dist/svg-pan-zoom.min",
     sparkline:	 "../bower_components/sparkline/dist/jquery.sparkline",
-
+    slider:      "../bower_components/bootstrap-slider/dist/bootstrap-slider",
+    
 					/* CodeMirror extensions */
     "cm/mode/prolog": "codemirror/mode/prolog",
     "cm/addon/hover/prolog-hover": "codemirror/addon/hover/prolog-hover",

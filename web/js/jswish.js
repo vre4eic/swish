@@ -64,7 +64,8 @@ define([ "jquery",
 	 "chatroom",
 	 "d3",
 	 "c3",
-	 "svg-pan-zoom"
+	 "svg-pan-zoom",
+	 "slider"
        ], function($, config, preferences, history, modal) {
 
 preferences.setDefault("semantic-highlighting", true);
