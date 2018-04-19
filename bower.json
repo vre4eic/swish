@@ -8,6 +8,7 @@
   { "jquery": "*",
     "jquery.splitter": "0.15",
     "bootstrap": "3",
+    "bootstrap-slider": "git://github.com/seiyria/bootstrap-slider#master",
     "typeahead.js": "git://github.com/twitter/typeahead.js.git#master",
     "laconic": "*",
     "requirejs": "*",
