@@ -154,6 +154,7 @@ swish_config:config(notebook,		_{eval_script: true,
 					  fullscreen: false
 					 }).
 swish_config:config(chat,		true).
+swish_config:config(default_query,	'user:"me"').
 
 %%	swish_config:source_alias(Alias, Options) is nondet.
 %
@@ -189,7 +190,7 @@ swish_config:config(chat,		true).
 :- use_module(swish:library(pengines_io)).
 :- use_module(swish:library(solution_sequences)).
 :- use_module(swish:library(aggregate)).
-:- if(exists_source(library(tabling))).
+:- if((\+current_predicate((table)/1),exists_source(library(tabling)))).
 :- use_module(swish:library(tabling)).
 :- endif.
 
